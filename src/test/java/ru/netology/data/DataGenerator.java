@@ -1,13 +1,11 @@
 package ru.netology.data;
 
 import com.github.javafaker.Faker;
-import com.google.gson.Gson;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import lombok.Value;
-import lombok.val;
 
 import java.util.Locale;
 
